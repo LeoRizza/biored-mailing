@@ -35,5 +35,4 @@ app.post('/send-email', async (req, res) => {
     }
 });
 
-// 👇 Vercel NO necesita app.listen()
 module.exports = app;
