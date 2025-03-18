@@ -22,7 +22,7 @@ app.post('/send-email', async (req, res) => {
 
         let mailOptions = {
             from: process.env.EMAIL_USER,
-            to: 'tatenguelmr@gmail.com',
+            to: 'consultora@bioredarg.com',
             subject: 'Nuevo mensaje de contacto',
             text: `Nombre: ${nombre}\nEmpresa: ${empresa}\nEmail: ${email}\nTeléfono: ${telefono}\nMensaje: ${mensaje}`
         };
